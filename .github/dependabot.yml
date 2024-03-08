@@ -1,0 +1,82 @@
+
+nachina/didactic-octo-system/tree/main
+
+
+{
+  "InitiatePayment_JSON_request": {
+    "singlePaymentInitiation_json": {
+      "SinglepaymemtPreferred": true,
+      "debtorAccount": {
+        "bban": ",
+        "currency": "USD",
+        "iban": "",
+        "maskedPan": "123456xxxxxx1234",
+        "msisdn": "”,
+        "pan": ""
+      },
+      "payments": [
+        {
+          "creditorAccount": {
+            "bban": "VISACARD438711",
+            "currency": "USD",
+            "iban": "PNC",
+            "maskedPan": "438711xxxxxx0647",
+            "msisdn": "888-762-2265",
+            "pan": ""
+          },
+          "creditorAddress": {
+            "buildingnNumber": "",
+            "city": "",
+            "country": "",
+            "postalCode": "",
+            "street": "rue blue"
+          },
+          "creditorAgent": "",
+          "creditorAgentName": "Creditor Agent Name",
+          "creditorName": "Creditor Name",
+          "endToEndIdentification": "AUTH0",
+          "instructedAmount": {
+            "amount": "",
+            "currency": "USD"
+          },
+
+
+          "remittanceInformationUnstructured": "Ref Number Merchant"
+        }
+      ],
+      "requestedExecutionDate": "",
+      "requestedExecutionTime": ""
+    },
+    "paymentInitiation_json": {
+      "Stripe Charge/ “ch",
+      "creditorAccount": {
+        "bban": "$",
+        "currency": "USD",
+        "iban": "$",
+        "maskedPan": "123456xxxxxx1234",
+        "msisdn": "$",
+        "pan": ""
+      },
+      "creditorAddress": {
+        "buildingnNumber": "",
+        "city": "",
+        "country": "",
+        "postalCode": "",
+        "street": "rue blue"
+      },
+      "creditorAgent": "",
+      "creditorAgentName": "Creditor Agent Name",
+      "creditorName": "Creditor Name",
+      "debtorAccount": {
+        "bban": "",
+        "currency": "USD",
+        "iban": "",
+        "maskedPan": "123456xxxxxx1234",
+        "msisdn": "",
+        "pan": ""
+      },
+      "endToEndIdentification": "Braintree Auth",
+      "instructedAmount": {
+        "amount": "123",
+        "currency": "USD"
+      },
